@@ -16,6 +16,10 @@ current = False
 if answer == AnswerBank.get("What is 2 + 2?"):
     current = True
 
+print(current)
+
+
+
 
 
 
