@@ -1,16 +1,14 @@
-# A dictionary of problems and their potential answers
-
 from operator import truediv
 from re import X
 
 
+# A dictionary of problems and their potential answers
 ProblemBank = {
     "What is 2 + 2?": ["4", "7", "0", "9"]
 }
 
 
 # A dictionary of problems and their correct answer only
-
 ProblemMatch = {
     "What is 2 + 2?": "4"
 }
@@ -24,6 +22,7 @@ def addProblem(question, correctAnswer, randomB, randomC, randomD):
 
 proceed = True
 
+# Input a button to produce a certain output
 while proceed:
     answer = input("""Add a new question?
     Press A to added new question
@@ -31,10 +30,11 @@ while proceed:
     Press X to if not more questions to add""").upper()
 
     if answer == "A":
-        (addProblem(input("What is the Question?: "), input("What is the CORRECT Answer?: "), 
-            input("Include WRONG Answer 1: "),
-            input("Include WRONG Answer 2: "),
-            input("Include WRONG Answer 3: ")))
+        (addProblem(input("What is the Question?: "), 
+                    input("What is the CORRECT Answer?: "), 
+                    input("Include WRONG Answer 1: "),
+                    input("Include WRONG Answer 2: "),
+                    input("Include WRONG Answer 3: ")))
     
     elif answer == "D":
         key = input("Type in question you want to delete")
