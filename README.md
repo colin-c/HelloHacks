@@ -6,3 +6,8 @@ BeSmart is a prototype android app focusing on sending real-time notifications f
 
 The frontend interface was created using purely Figma and the backend used answerQuestions.py and createQuestionss.py.
 
+
+# Frontend Figma
+
+Here is a link to the prototype interface: https://www.figma.com/proto/3IJp4t29OVOcO8XyeXnGJV/Team-1-Biztech-Hello-Hacks-Design?page-id=22%3A2&node-id=99%3A109&viewport=852%2C-470%2C0.89&scaling=scale-down&starting-point-node-id=99%3A109
+
